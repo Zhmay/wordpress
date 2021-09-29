@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+        <h1>Our books!</h1>
         <div class="row">
             <?php while (have_posts()) : the_post(); ?>
                 <div class="col">
